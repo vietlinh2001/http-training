@@ -23,7 +23,7 @@ Example:
 yarn ts-node src/http-client-demo.ts 1
 ```
 
-Then, this programing will fetch the user data from the endpoint [https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1) end showing the hello message
+Then, this programing will fetch the user data from the endpoint [https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1) and showing the hello message
 
 
 **Credit** 
