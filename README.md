@@ -1,7 +1,6 @@
-# ts-training
+# http-training
 
-Demo about OOP - Design by Contract & teamworking with Calculator example code
-
+Demo about HTTP client - server model
 ---
 
 # PREREQUISITES:
@@ -10,22 +9,22 @@ Demo about OOP - Design by Contract & teamworking with Calculator example code
 yarn install
 ```
 
-# Calculator Command
+# Running Client example
 
 ```sh
-yarn ts-node index.ts <number1> <operation> <number2>
+yarn ts-node src/http-client-demo.ts <user-id>
 ```
 
-Where
-
-- `number1`, `number2` are the given numbers
-- `operation` is one of `+`, `-`, `x`, `/`
+Where `<user-id>` is in range of 1 - 10
 
 Example:
 
 ```sh
-yarn ts-node index.ts 1 + 2
+yarn ts-node src/http-client-demo.ts 1
 ```
+
+Then, this programing will fetch the user data from the endpoint [https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1) end showing the hello message
+
 
 **Credit** 
 
