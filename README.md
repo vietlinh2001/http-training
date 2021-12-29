@@ -12,23 +12,14 @@ yarn install
 # Running Client example
 
 ```sh
-yarn ts-node src/http-client-demo.ts <user-id>
+yarn ts-node src/http-client-demo.ts
 ```
 
-Where `<user-id>` is in range of 1 - 10
-
-Example:
+Then, this programing will fetch the user data from the endpoint [http://localhost:3000](http://localhost:3000) and showing the hello message
 
 ```sh
-yarn ts-node src/http-client-demo.ts 1
-```
-
-Then, this programing will fetch the user data from the endpoint [https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1) and showing the hello message
-
-```sh
-Hello Leanne Graham
-Done in 1.74s.
-```
+Hello Rikky!. You are very sexy
+Done in 1.18s.
 
 **Credit** 
 
